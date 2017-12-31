@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {	
+}
+
+@media screen and (max-width: 992px) {
+	.testiHolder {margin-bottom: 80px;}
+}
+
+@media screen and (max-width: 768px) {
+	.contactCard {position: relative;padding-top:240px;}
+	.contactMap {position: absolute;left: 0;top:0;bottom:initial;width:100%;background: #000;right:0;height:200px;}
+}

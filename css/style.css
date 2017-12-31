@@ -1,0 +1,176 @@
+/*Bootstrap reset*/
+	a:focus,a:active{outline: none;}
+	a:hover{text-decoration: none;}
+	.noMargin{margin:0 !important;}
+	.noPadding{padding:0 !important;}
+	.noBorder{border:0 !important;}
+	.gap5{height:5px;display: block;}
+	.gap10{height:10px;display: block;}
+	.gap20{height:20px;display: block;}
+	.gap30{height:30px;display: block;}
+	.gap40{height:40px;display: block;}
+	.gap50{height:50px;display: block;}
+	.gap100{height:100px;display: block;}
+	.textEllipsis, .textTruncate{display: inline-block;width: 100%;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+	.flexCenter{display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;align-items: center;justify-content: center;}
+	.row10 {margin-left:-10px;margin-right:-10px;}
+	.row10>div {padding-left:10px;padding-right:10px;}
+	.row5 {margin-left:-5px;margin-right:-5px;}
+	.row5>div {padding-left:5px;padding-right:5px;}
+	.row2 {margin-left:-2px;margin-right:-2px;}
+	.row2>div {padding-left:2px;padding-right:2px;}
+	.row1 {margin-left:-1px;margin-right:-1px;}
+	.row1>div {padding-left:1px;padding-right:1px;}
+	.row3 {margin-left:-3px;margin-right:-3px;}
+	.row3>div {padding-left:3px;padding-right:3px;}
+	.row4 {margin-left:-4px;margin-right:-4px;}
+	.row4>div {padding-left:4px;padding-right:4px;}
+	.row0 {margin-left:-0px;margin-right:-0px;}
+	.row0>div {padding-left:0px;padding-right:0px;}
+	.row10:before,.row5:before,.row2:before,.row1:before,.row3:before,.row4:before,.row0:before {display: table;content: " ";box-sizing: border-box;}
+	.row10:after,.row5:after,.row2:after,.row1:after,.row3:after,.row4:after,.row0:after {clear: both;content: " ";box-sizing: border-box;display: block;}
+	.noBorderRadius,.borderRadiusNone {border-radius: 0 !important}
+	body,html,* {font-family: 'Arial', sans-serif;}
+	a:focus,a:active {border:none;text-decoration: none;}
+	.noScroll {overflow-y:hidden;}
+	.pad5 {padding:0 5px}
+	.pad10 {padding:0 10px}
+	.pad20 {padding:0 20px}
+	.pad30 {padding:0 30px}
+	.pad40 {padding:0 40px}
+	.pad50 {padding:0 50px}
+	.pad100 {padding:0 100px}
+	.font100 {font-weight: 100}
+	.font200 {font-weight: 200}
+	.font300 {font-weight: 300}
+	.font400 {font-weight: 400}
+	.font500 {font-weight: 500}
+	.font600 {font-weight: 600}
+	.font700 {font-weight: 700}
+	.font800 {font-weight: 800}
+	.font900 {font-weight: 900}
+	.fade0 {opacity: 0}
+	.fade1 {opacity: .1}
+	.fade2 {opacity: .2}
+	.fade3 {opacity: .3}
+	.fade4 {opacity: .4}
+	.fade5 {opacity: .5}
+	.fade6 {opacity: .6}
+	.fade7 {opacity: .7}
+	.fade8 {opacity: .8}
+	.fade9 {opacity: .9}
+	.fade10 {opacity: 1}
+	.radius0 {border-radius: 0px}
+	.radius1 {border-radius: 1px}
+	.radius2 {border-radius: 2px}
+	.radius3 {border-radius: 3px}
+	.radius4 {border-radius: 4px}
+	.radius5 {border-radius: 5px}
+	.radius10 {border-radius: 10px}
+	.bgCover {background-size: cover}
+	.bgCenter {background-position: center;}
+	.bgContain {background-size: contain;}
+	.noScroll {overflow: hidden;}
+
+/*Fonts*/
+	.slab {font-family: 'Roboto Slab', serif;}
+
+/*Buttons*/
+	.btn,.btn:active,.btn:focus {box-shadow: none;border:none;outline:none;border-radius: 2px;}
+	.btn-blue {background: #4d83ff;color:#FFF;}
+	.btn-blue:hover,.btn-blue:active,.btn-blue:focus {background: #7da4ff;color:#FFF;}
+	.btn-orange {background: #ff7232;color:#FFF;}
+	.btn-orange:hover,.btn-orange:active,.btn-orange:focus {background: #ff7f45;color:#FFF;}
+	.btn-yellow {background: #ffa800;color:#FFF;}
+	.btn-yellow:hover,.btn-yellow:active,.btn-yellow:focus {background: #d88e00;color:#FFF;}
+	.btn-brown {background: #760c0c;color:#FFF;}
+	.btn-brown:hover,.btn-brown:active,.btn-brown:focus {background: #570606;color:#FFF;}
+	.btn-green {background: #5cb8b3;color:#FFF;}
+	.btn-green:hover,.btn-green:active,.btn-green:focus {background: #3b8e89;color:#FFF;}
+
+/*Small Menu*/
+	.smallMenu {position: fixed;top: 0;right: -85%;width: 85%;height: 100%;transition: all .2s;background: #1544d0;z-index: 1001}
+	.smallMenu.showMenu {right: 0}
+	.menuOverlay {width: 100%;height: 100%;position:fixed;left:0;top:0;background: rgba(0,0,0,.7);display: none;z-index: 1000}
+	.smMenuInner {width: 100%;height: 100%;padding:20px;overflow: auto;}
+	.smMenuInner a {display: block;width: 100%;text-align: center;font-size: 22px;padding:10px 0;color:#FFF;}
+	.smMenuCaller {position: absolute;z-index: 4;top: 0;right: 0;width: 70px;height: 70px;text-align: center;line-height: 70px;font-size: 20px;color: #1544d0;opacity: .7;}
+	.smMenuCaller:hover:hover,.smMenuCaller:hover:focus,.smMenuCaller:hover:active {color:#1544d0;opacity: 1}
+
+/*Md Input*/
+	.mdInput {position: relative;line-height: 50px;border-bottom: 1px #DDD solid;margin-top:20px;}
+	.mdInput label {color:#AAA;font-weight: 400;position: absolute;z-index: 1;top:0;transition:all .2s;}
+	.mdInput input,.mdInput textarea,.mdInput select {display: block;width: 100%;border:none;outline:none;height: 50px;padding:0;line-height: 50px;position: relative;z-index: 2;background: none;font-size: 16px;}
+	.mdFocussed label,.alwaysFocused label {top:-28px;color:#5cb8b3;font-weight: 700}
+	.mdFocussed,.alwaysFocused {border-color:#5cb8b3;}
+	.mdInput textarea {resize: none;height: 80px;}
+
+/*General*/
+	.homeHeader {height: 100vh;}
+	.bannerItem {height: 100vh;background-size: cover;background-position: center;position: relative;}
+	.bannerItem > .div {position: relative;z-index: 1}
+	.bannerContentInner {height: 100vh;display: flex;align-items: center;justify-content: center;}
+	.bannerText {width: 100%;text-align: left;margin-top:100px;}
+	.bannerText h1 {font-size: 45px;color:#FFF;font-weight: 800;text-shadow: 0 4px 4px rgba(0,0,0,.4)}
+	.bannerTextBg {margin:20px 0;background: #FFF;padding:25px;border-radius: 12px;position: relative;}
+	.bannerTextBg p {margin:0;font-size: 15px;color:#70543f;}
+	.bannerTextBg:after {content:"";display: inline-block;position: absolute;left: -4px;top:15px;bottom:15px;width:8px;border-radius: 10px;background: #800}
+	.carousel-control.left,.carousel-control.right {top: 50%;height: 100px;margin-top: -50px;width: 50px;background: rgba(0,0,0,.5);}
+	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {font-size: 25px}
+	.topNavbar {position: fixed;top:0;left: 0;right: 0;z-index: 1000;box-shadow: 0 5px 5px rgba(0,0,0,.2);}
+	.leftInfo span {display: inline-block;line-height: 40px;margin-right: 15px;}
+	.topNav {background: #e8e8e8;height: 40px;}
+	.navSocial a {display: inline-block;line-height: 40px;font-size: 18px;margin:0 0 0 20px;opacity:1}
+	.navSocial a:hover {opacity: .8}
+	.navMenu {background: #FFF;height: 70px;position: relative;}
+	.navLogo {display: inline-block;}
+	.navLogo img {height: 66px;margin-top:2px;}
+	.topMenuItem {position: relative;display: inline-block;}
+	.topMenuItem > a {display: inline-block;line-height: 70px;color:#2b3954;font-size: 15px;padding: 0 20px;}
+	.topMenuItem > a:hover {background: #FAFAFA}
+	.topMenuItem div {position: absolute;right: 0;top:70px;width: 170px;background: #FAFAFA;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;overflow: hidden;display: none}
+	.topMenuItem div a {display: block;width: 100%;padding: 10px 15px;color:#888;}
+	.topMenuItem div a:hover {background: #2b3954;color:#FFF;}
+	.topMenuItem:hover div {display: block;}
+	.topMenuItem a.active {position: relative;}
+	.topMenuItem a.active:after {content:"";left: 20px;right: 20px;bottom:0;height: 4px;border-radius: 10px;background: #2b3954;display: block;position: absolute;}
+	.homeAboutImage {height: 400px;background:url('../images/table-top.png') no-repeat center;background-size: cover;border-radius: 10px;margin-top:32px;}
+	.hAHeader {font-size: 32px;font-weight: 700;color:#2b3954;}
+	.hASubHeader {font-size: 18px;font-weight: 400;color:#495678;}
+	.hAText {color:#444;font-size: 14px;}
+	.hASubText {color:#888;font-size: 13px;}
+	.homeTestimonials,.innerBannerHolder {background: #ecf3f9}
+	.testiHolder {background: #FFF;position: relative;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom: 4px #2e3955 solid;padding:20px 15px 20px;text-align: center;margin-bottom: 30px;}
+	.testiAutorImage {position: absolute;left: 50%;margin-left: -50px;border-radius: 50%;height: 100px;top: -50px;background-position: center;background-size: cover;width: 100px;}
+	.testiAuthorName {font-size: 20px;color:#2d3b56;font-weight: 500}
+	.testiAuthorComment {font-size:14px;color:#888;}
+	.brownText {color:#6f5441;}
+	.footerLinks  a,.footerLinks  span {color:#888;display: block;margin:5px 0 5px 0;}
+	.footerLinks  a:hover {text-decoration: underline;color:#444;}
+	.footerHeading {font-size: 16px;color:#5cb8b3;}
+	.footerContact span {display: block;}
+	.footerContact i {color:#5cb8b3;}
+	.footerCopyright {padding: 15px 0;text-align: center;background: #ecf3f9;color:#888;}
+	.form-control {box-shadow: none !important}
+	.input-group .btn-yellow {border:1px #d88e00 solid;}
+	.card {background: #FFF}
+	.contactContentHolder {padding:0 20px;}
+	.contactCard {position: relative;}
+	.contactMap {position: absolute;left: 0;top:0;bottom:0;width:50%;background: #000}
+
+	.industriesWeServe,.whyChooseUs {background: #ecf3f9}
+	body {overflow-x: hidden;}
+
+	.innerBanner {background-size: cover;background-position: center;padding:90px 0 110px;position: relative;}
+	.innerBanner h1 {color:#FFF;text-shadow:0 0 10px rgba(0,0,0,.7);font-size: 70px;font-weight: 600;position: relative;z-index: 2}
+	.innerBanner:after {content:"";display: block;position: absolute;left: 0;top:0;right: 0;bottom: 0;background: rgba(22,142,179,.05)}
+	.bannerItem:after {content:"";display: block;position: absolute;left: 0;top:0;right: 0;bottom: 0;background: rgba(22,142,179,.05)}
+	.bannerItem .container {position: relative;z-index: 10}
+	.innerBannerText {position: relative;top:-20px;background: #FFF;border-radius: 15px;padding:30px 50px;box-shadow: 0 5px 10px rgba(0,0,0,.2);font-size: 16px;}
+	.innerBannerText p:last-child {margin:0;}
+	.bannerContentInner .btn {border:1px rgba(255,255,255,.7) solid;}
+	#freewha {display: none !important}
+	#map {position: absolute;left: 0;top:0;right:0; bottom:40px;}
+	.contactMap > a {display: block;position: absolute;left: 0;right: 0;bottom:0;text-align: center;;height: 40px;line-height: 40px;color:#444;background: #FFF}
+	.contactMap > a:hover {text-decoration: underline;color:#000;}
+	.industriesWeServe h4 {font-weight: 600}
