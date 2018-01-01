@@ -122,7 +122,7 @@
 	.topNav {background: #e8e8e8;height: 40px;}
 	.navSocial a {display: inline-block;line-height: 40px;font-size: 18px;margin:0 0 0 20px;opacity:1}
 	.navSocial a:hover {opacity: .8}
-	.navMenu {background: #FFF;height: 70px;position: relative;}
+	.navMenu {background: #444;height: 70px;position: relative;}
 	.navLogo {display: inline-block;}
 	.navLogo img {height: 66px;margin-top:2px;}
 	.topMenuItem {position: relative;display: inline-block;}
