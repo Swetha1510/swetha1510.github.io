@@ -174,3 +174,5 @@
 	.contactMap > a {display: block;position: absolute;left: 0;right: 0;bottom:0;text-align: center;;height: 40px;line-height: 40px;color:#444;background: #FFF}
 	.contactMap > a:hover {text-decoration: underline;color:#000;}
 	.industriesWeServe h4 {font-weight: 600}
+	.swetha	span {color:#888;display: block;margin:5px 0 5px 0;}
+	}
